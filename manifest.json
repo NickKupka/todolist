@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "content_security_policy": "default-src 'self'; script-src 'self' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; connect-src 'none';",
+  "app": {
+    "launch": {
+      "container": "panel",
+	    "width":1024,
+	    "height":600,
+      "local_path": "index.html"
+    }
+  },
+  "default_locale": "en",
+  "description": "Todo List.",
+  "icons": {
+    "128": "icon_128.png",
+    "48": "icon_48.png",
+    "16": "icon_16.png"
+  },
+  "name": "TodoList",
+  "permissions": [  ],
+  "version": "0.0.4",
+  "homepage_url" : "https://01.org/html5webapps/webapps/todolist"
+}
